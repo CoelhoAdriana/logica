@@ -1,0 +1,7 @@
+var1 = input("Informe o valor atual do salário, em reais. Lembre-se de utilizar um ponto para separar as casas decimais: R$")
+var1 = float(var1)
+var2 = input("Qual o valor do percentual de aumento acordado? ")
+var2 = float(var2)
+result = (100+var2)*(var1/100)
+format_result = "{:.2f}".format(result)
+print("O valor do novo salário é R$ ", format_result, ".")
